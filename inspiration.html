@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inspiration - styleootdtutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .inspiration-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .inspiration-box {
+            width: 30%;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+            cursor: pointer;
+        }
+
+        .inspiration-box:hover {
+            transform: scale(1.05);
+        }
+
+        .inspiration-box img {
+            width: 100%;
+            height: auto;
+        }
+
+        .inspiration-box h3 {
+            margin: 10px;
+            font-size: 20px; /* Ukuran teks lebih besar */
+            text-align: center;
+            font-weight: bold; /* Membuat teks tebal */
+            color: #333; /* Warna lebih gelap untuk kejelasan */
+        }
+
+        .inspiration-box p {
+            margin: 10px;
+            font-size: 14px;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inspiration</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="inspiration.html">Inspiration</a></li>
+                <li><a href="colormix.html">ColorMix</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="inspiration-container">
+            <div class="inspiration-box" onclick="location.href='casuallook.html'">
+                <img src="casual.jpg" alt="casuallook">
+                <h3>INSPIRATION OOTD CASUAL LOOK</h3>
+            </div>
+            <div class="inspiration-box" onclick="location.href='formallook.html'">
+                <img src="formal.avif" alt="formallook">
+                <h3>INSPIRATION OOTD FORMAL LOOK</h3>
+            </div>
+            <div class="inspiration-box" onclick="location.href='femininelook.html'">
+                <img src="feminine.jpeg" alt="femininelook">
+                <h3>INSPIRATION OOTD FEMININE LOOK</h3>
+            </div>
+            <div class="inspiration-box" onclick="location.href='edgylook.php'">
+                <img src="edgy.jpg" alt="edgylook">
+                <h3>INSPIRATION OOTD EDGY LOOK</h3>
+            </div>
+            <div class="inspiration-box" onclick="location.href='vintagestyle.html'">
+                <img src="vintage.jpg" alt="vintagestyle">
+                <h3>INSPIRATION OOTD VINTAGE STYLE</h3>
+            </div>
+            <div class="inspiration-box" onclick="location.href='koreanstyle.html'">
+                <img src="korean.webp" alt="koreanstyle">
+                <h3>INSPIRATION OOTD KOREAN STYLE</h3>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>

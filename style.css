@@ -1,0 +1,162 @@
+/* Global Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #704a03;
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 3px solid #704a03;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 20px; /* Tambahkan jarak di bawah judul */
+    font-size: 28px;
+    color: #704a03;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #e39644;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e39644;
+    color: #e39644;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #e39644;
+}
+
+main {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.6); /* Transparansi untuk teks */
+    border-radius: 10px;
+    color: #fff;
+}
+
+.main-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.main-description {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+section {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255); /* Semi-transparent background */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 2;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Color Boxes */
+.color-boxes {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.color-box {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.color-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #444;
+    color: #FFD700;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Styling khusus untuk halaman index (home) */
+body {
+    background-image: url('fashion.png'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Gambar memenuhi layar */
+    background-position: center; /* Pusatkan gambar */
+    background-attachment: fixed; /* Membuat gambar tetap saat di-scroll */
+    color: #fff; /* Warna teks putih agar kontras */
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.6); /* Transparansi untuk teks */
+}
